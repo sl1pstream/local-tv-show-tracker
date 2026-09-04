@@ -11,7 +11,8 @@ Trakt tends to pick and choose when to split 2 15-minute episodes of a cartoon/s
 
 ### PWA
 <img width="1874" height="527" alt="image" src="https://github.com/user-attachments/assets/9c5f3ccf-0178-47e1-9b69-32811c3540f6" />
-<img width="1868" height="665" alt="image" src="https://github.com/user-attachments/assets/d2ec523a-f649-4290-9056-3f4a9ff0e19d" />
+<img width="1869" height="660" alt="image" src="https://github.com/user-attachments/assets/9c14d907-dbd1-4f61-8541-949cb7d9835f" />
+
 
 ## Features & Benefits
 - **Customizability** - Show names, covers, descriptions, and watch progress can all be edited

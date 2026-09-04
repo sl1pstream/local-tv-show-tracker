@@ -1,6 +1,11 @@
 # local-tv-show-tracker
 Python script and local PWA to better keep track of TV show watch progress locally (accessible to other devices on local network), for when tracking services like Trakt and Letterboxd have a scheme for episodes different to the source you're watching on
 
+## System Requirements
+- Linux (ideally), although it *should* work on Windows, given you have the rest of the requirements
+- Python v3.8 or newer
+- Pillow (use `pip install pillow` in your system's terminal if you don't already have it)
+
 ## Why is this necessary?
 Trakt tends to pick and choose when to split 2 15-minute episodes of a cartoon/show into their own listing, despite the show airing in one 30 minute segment. There is no guarantee that the episodes are in order either. It makes an inconvenient experience for anyone to have to match up the episode titles and find them in a disorganized list *after* they've watched the episode
 
@@ -13,6 +18,10 @@ Trakt tends to pick and choose when to split 2 15-minute episodes of a cartoon/s
 <img width="1874" height="527" alt="image" src="https://github.com/user-attachments/assets/9c5f3ccf-0178-47e1-9b69-32811c3540f6" />
 <img width="1869" height="660" alt="image" src="https://github.com/user-attachments/assets/9c14d907-dbd1-4f61-8541-949cb7d9835f" />
 
+
+## Usage
+1. Clone/download this repo
+2. Run show_tracker.py
 
 ## Features & Benefits
 - **Customizability** - Show names, covers, descriptions, and watch progress can all be edited

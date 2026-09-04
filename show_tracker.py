@@ -1,7 +1,5 @@
 import tkinter as tk
-import subprocess
-from tkinter import ttk
-from tkinter import filedialog
+from tkinter import ttk, filedialog
 from PIL import Image, ImageTk
 import json
 import threading
@@ -278,7 +276,7 @@ class ShowTracker:
         self.refresh_show_list()
 
     def browse_image(self):
-        file_path = subprocess.check_output(['kdialog', '--getopenfilename', '/', 'Image files (*.jpg *.jpeg *.png *.gif)']).decode().strip()
+        file_path = filedialog.askopenfilename(filetypes=[("Image files", "*.jpg *.jpeg *.png *.gif")])
         if file_path:
             try:
                 with Image.open(file_path) as img:

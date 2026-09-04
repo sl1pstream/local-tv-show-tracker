@@ -25,7 +25,7 @@ Trakt tends to pick and choose when to split 2 15-minute episodes of a cartoon/s
 
 ## Features & Benefits
 - **Customizability** - Show names, covers, descriptions, and watch progress can all be edited
-- **Accessibility** - having a PWA allows you to access your progress from any device (see PWA Info below for more details)
+- **Accessibility** - having a PWA allows you to access your progress from any device (see [PWA Info below](https://github.com/sl1pstream/local-tv-show-tracker/tree/main#pwa-info) for more details)
 - **Real-time sync** - Changes made to watch progress, both local and through the PWA, will be reflected in real time
 - **You choose when and where to run the PWA** - If for some reason port 8080 is already used to host something else, you can change the port number from the python GUI.
 

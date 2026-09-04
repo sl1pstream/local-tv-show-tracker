@@ -6,8 +6,8 @@ Trakt tends to pick and choose when to split 2 15-minute episodes of a cartoon/s
 
 ## Screenshots
 ### Python script (local)
-<img width="400" height="243" alt="image" src="https://github.com/user-attachments/assets/c7d2258c-3947-44e8-bfbc-c1951e727dde" />
-<img width="400" height="296" alt="image" src="https://github.com/user-attachments/assets/140bc309-5b91-4f80-b8a1-967c210dbf20" />
+<img width="400" height="275" alt="image" src="https://github.com/user-attachments/assets/1477f71b-68c5-4336-80d9-18648f4fcc10" />
+<img width="400" height="296" alt="image" src="https://github.com/user-attachments/assets/b42738d5-1d3e-4b05-937e-e66ee73f86e5" />
 
 ### PWA
 <img width="1874" height="527" alt="image" src="https://github.com/user-attachments/assets/9c5f3ccf-0178-47e1-9b69-32811c3540f6" />
@@ -18,6 +18,7 @@ Trakt tends to pick and choose when to split 2 15-minute episodes of a cartoon/s
 - **Customizability** - Show names, covers, descriptions, and watch progress can all be edited
 - **Accessibility** - having a PWA allows you to access your progress from any device (see PWA Info below for more details)
 - **Real-time sync** - Changes made to watch progress, both local and through the PWA, will be reflected in real time
+- **You choose when and where to run the PWA** - If for some reason port 8080 is already used to host something else, you can change the port number from the python GUI.
 
 ## PWA Info
 The PWA server is set to port 8080 of the machine running the .py script. **You need to run the python script for the PWA to work since that is only hosted locally**

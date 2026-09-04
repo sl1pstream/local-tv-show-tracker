@@ -331,7 +331,7 @@
     }).join('');
   }
 
-  function openDetail(title) {
+  function openDetail(title, pushHistory = true) {
     editingKey = title || null;
     pendingCoverFile = null;
     coverRemoved = false;
@@ -350,6 +350,7 @@
     backBtn.style.display = '';
     addBtn.style.display = 'none';
     headerTitle.textContent = title || 'New Show';
+    if (pushHistory) history.pushState({ detail: true, title }, '', '');
   }
 
   function setCover(path) {
@@ -441,13 +442,18 @@
     setCover(null);
   });
 
-  backBtn.addEventListener('click', showList);
+  backBtn.addEventListener('click', () => { history.back(); });
+  window.addEventListener('popstate', e => {
+    if (e.state?.detail) openDetail(e.state.title, false);
+    else showList();
+  });
   addBtn.addEventListener('click', () => openDetail(null));
   document.getElementById('save-btn').addEventListener('click', saveShow);
   document.getElementById('delete-btn').addEventListener('click', deleteShow);
 
   if ('serviceWorker' in navigator) navigator.serviceWorker.register('/sw.js');
 
+  history.replaceState({ detail: false }, '', '');
   loadShows();
 
   setInterval(async () => {

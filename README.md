@@ -16,7 +16,7 @@ Trakt tends to pick and choose when to split 2 15-minute episodes of a cartoon/s
 
 ### PWA
 <img width="1874" height="527" alt="image" src="https://github.com/user-attachments/assets/9c5f3ccf-0178-47e1-9b69-32811c3540f6" />
-<img width="1869" height="660" alt="image" src="https://github.com/user-attachments/assets/9c14d907-dbd1-4f61-8541-949cb7d9835f" />
+<img width="1873" height="662" alt="image" src="https://github.com/user-attachments/assets/7fb92976-7ce5-4738-8085-951e0522f725" />
 
 
 ## Usage

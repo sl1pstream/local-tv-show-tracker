@@ -1,4 +1,6 @@
 # local-tv-show-tracker
+[See latest updates here](https://github.com/sl1pstream/local-tv-show-tracker/blob/main/Changelog.md)
+
 Python script and local PWA to better keep track of TV show watch progress locally (accessible to other devices on local network), for when tracking services like Trakt and Letterboxd have a scheme for episodes different to the source you're watching on
 
 ## System Requirements
